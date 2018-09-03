@@ -23,7 +23,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   a = text.scan(\A[A-Z].*\.)
   if a  ==  []
     false
-  end
+  else
   true
 end
 
