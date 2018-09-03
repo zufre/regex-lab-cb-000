@@ -21,10 +21,10 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   a = text.match(\A[A-Z].*\.)
-  if a  ==  nil
-     false
+  if a  !==  nil
+     return true
   else
-     true
+     return true
   end
 
 end
