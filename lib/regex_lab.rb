@@ -10,13 +10,9 @@ end
 
 
 def words_starting_with_un_and_ending_with_ing(text)
- res = text.scan(/\bun\w*eng\b/i)
+ text.scan(/\bun\w*eng\b/i)
 
-  if res == []
-    false
-  else
-    res
-  end
+  
 end
 
   def words_five_letters_long(text)
