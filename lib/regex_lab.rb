@@ -24,7 +24,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   if a  !=  nil
      return true
   else
-     return true
+     return false
   end
 
 end
